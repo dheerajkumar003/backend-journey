@@ -1,4 +1,5 @@
-/* Write sleep(ms) that returns a Promise which resolves after ms milliseconds.
+/* DAY - 01 
+Write sleep(ms) that returns a Promise which resolves after ms milliseconds.
 Hint: new Promise(resolve => setTimeout(resolve, ms)).
 Then log "start", await sleep(1000), and log "done" */
 

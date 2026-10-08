@@ -1,4 +1,4 @@
-/*
+/* DAY - 01
 Make fakeApi reject when name === 'orders'. Then:
 Use Promise.all and catch the error.
 What happens to the other two results?

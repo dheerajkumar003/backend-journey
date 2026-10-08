@@ -1,3 +1,6 @@
+/* DAY - 02
+Predict the output of the following code
+*/
 const start = Date.now();
 setInterval(() => {
   console.log(`tick at ${Date.now() - start}ms`);

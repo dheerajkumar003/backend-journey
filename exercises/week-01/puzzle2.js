@@ -1,3 +1,6 @@
+/* DAY - 02
+Predict the output of the following puzzle
+*/
 async function task() {
   console.log('2');
   await null;

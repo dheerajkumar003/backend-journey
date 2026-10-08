@@ -1,3 +1,6 @@
+/* DAY - 02
+Predict the output of the following puzzle
+*/
 setTimeout(() => {
   console.log('A');
   Promise.resolve().then(() => console.log('B'));

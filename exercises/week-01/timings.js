@@ -1,4 +1,4 @@
-/*
+/*  DAY - 01
 Write fakeApi(name, ms) that waits ms and then returns `${name} loaded`.
 Call it three times (1000, 1500 and 500 ms):
 once sequentially, and

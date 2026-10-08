@@ -1,3 +1,6 @@
+/* DAY - 02
+Predict the output of the following puzzle
+*/
 const sleep = (ms) => {
     return new Promise((resolve) => {
         setTimeout(()=> {
@@ -7,7 +10,7 @@ const sleep = (ms) => {
 }
 
 const fakeApi = async (name, ms) => {
-    sleep(ms)
+    await sleep(ms)
     return `${name} loaded`
 }
 
