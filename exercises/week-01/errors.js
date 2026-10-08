@@ -21,16 +21,16 @@ const fakeApi = (name, ms) => {
 
 // Part 1: Promise.all is "all or nothing".
 // One rejection makes the whole thing reject, and you lose the other results.
-// try {
-//     const results = await Promise.all([
-//         fakeApi("user", 1000),
-//         fakeApi("orders", 1500),
-//         fakeApi("notifications", 500),
-//     ])
-//     console.log("Part 1 results:", results) // never runs
-// } catch (error) {
-//     console.log("Part 1 caught:", error.message)
-// }
+try {
+    const results = await Promise.all([
+        fakeApi("user", 1000),
+        fakeApi("orders", 1500),
+        fakeApi("notifications", 500),
+    ])
+    console.log("Part 1 results:", results) // never runs
+} catch (error) {
+    console.log("Part 1 caught:", error.message)
+}
 
 // Part 2: Promise.allSettled waits for every call and reports each one's outcome.
 // const settled = await Promise.allSettled([
@@ -41,8 +41,8 @@ const fakeApi = (name, ms) => {
 // console.log("Part 2 results:", settled)
 
 // Part 3: no try/catch. Uncomment these lines, run the file, and read the crash output.
-const crashed = await Promise.all([
-    fakeApi("user", 1000),
-    fakeApi("orders", 1500),
-])
-console.log("Part 3: this line never runs", crashed)
+// const crashed = await Promise.all([
+//     fakeApi("user", 1000),
+//     fakeApi("orders", 1500),
+// ])
+// console.log("Part 3: this line never runs", crashed)
