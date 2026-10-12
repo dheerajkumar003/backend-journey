@@ -1,6 +1,6 @@
 /* DAY - 01 */
-console.log(process.argv)
-console.log(Number(process.argv[3]))
+console.log(process.argv);
+console.log(Number(process.argv[3]));
 
 // [
 //   '/usr/local/Cellar/node/25.1.0/bin/node',      ← [0] the node program itself
