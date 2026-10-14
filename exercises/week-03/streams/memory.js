@@ -1,3 +1,4 @@
+/* DAY - 02 */
 import { readFile } from "node:fs/promises"
 
 const before = process.memoryUsage().rss

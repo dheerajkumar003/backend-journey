@@ -1,3 +1,4 @@
+/* DAY - 03 */
 const baseUrl = "https://jsonplaceholder.typicode.com"
 const post1Url = `${baseUrl}/posts/1`
 const post99999Url = `${baseUrl}/posts/99999`

@@ -1,3 +1,4 @@
+/* DAY - 01 */
 const timer = setInterval(() => console.log("working..."), 500)
 
 process.on("SIGINT", () => {

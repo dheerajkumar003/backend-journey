@@ -1,3 +1,4 @@
+/* DAY - 02 */
 const text = Buffer.from("Hello")
 console.log(text)
 console.log("bytes:", text.length)

@@ -1,3 +1,4 @@
+/* DAY - 02 */
 import { createWriteStream } from "node:fs"
 
 const out = createWriteStream("big.txt")

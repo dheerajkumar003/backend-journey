@@ -1,3 +1,4 @@
+/* DAY - 02 */
 import { createReadStream } from "node:fs"
 
 const before = process.memoryUsage().rss
