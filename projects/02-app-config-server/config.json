@@ -1,0 +1,20 @@
+{
+  "ios": {
+    "latestVersion": "1.4.0",
+    "minSupportedVersion": "1.2.0",
+    "storeUrl": "https://apps.apple.com/app/id000000"
+  },
+  "android": {
+    "latestVersion": "1.4.0",
+    "minSupportedVersion": "1.1.0",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.example.app"
+  },
+  "maintenance": {
+    "enabled": false,
+    "message": "We're upgrading our servers. Back in 30 minutes!"
+  },
+  "featureFlags": {
+    "newCheckout": true,
+    "darkMode": false
+  }
+}
