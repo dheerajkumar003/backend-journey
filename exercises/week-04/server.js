@@ -14,7 +14,6 @@ app.get("/time", (req, res)=> {
 
 app.get("/greet", (req, res)=> {
     const {name} = req.query
-    console.log("🚀 ~ name:", name)
     if (!name) { 
         return res.status(400).json({ error: "name is required" })
     }
